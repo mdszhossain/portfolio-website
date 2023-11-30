@@ -18,6 +18,7 @@ body {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 0px;
 }
 
 /* nav related styles */
@@ -112,10 +113,29 @@ nav a {
 }
 
 .section-description {
-    padding-left: 387px;
-    padding-right: 387px;
     text-align: center;
     color: #757575;
     font-size: 18px;
     font-weight: 400;
+    margin-top: 30px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.about-info-container  {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+.info-value {
+    margin-top: 0px;
+}
+.info-title {
+    margin-bottom: 5px;
 }

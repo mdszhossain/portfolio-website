@@ -30,6 +30,13 @@ nav {
     margin: 0px 200px;
 }
 
+nav > ul .nav1:hover {
+    background-color: #fd6e0a;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+
 .text-primary {
     color: #fd6e0a;
 }
@@ -55,9 +62,9 @@ nav a {
 
 .header {
     background: #fff8f3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right bottom, top left;
 }
 .profile-pic {
     margin-right: 0px;
@@ -231,7 +238,9 @@ footer {
     text-align: left;
 }
 
-.contact-form input[type="text"], .contact-form input[type="email"], textarea {
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 30px;

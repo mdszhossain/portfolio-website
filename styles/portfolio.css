@@ -194,19 +194,7 @@ main {
 .educationr1 {
     margin-top: 30px;
 }
-/* .btndown {
-    border-radius: 5px;
-    background: #fd6e0a;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
-    margin-left: 470px;
-    margin-top: 50px;
-    width: 200px;
-    height: 64px;
-} */
+
 
 .download-cv {
     text-align: center;
@@ -216,11 +204,8 @@ main {
     padding: 20px 20px;
 }
 
-footer {
-    max-width: 1600px; 
-}
-
-.education, .experience {
+.education,
+.experience {
     padding: 30px;
 }
 
@@ -229,3 +214,16 @@ footer {
     margin-bottom: 30px;
 }
 
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    gap: 120px;
+}
+.section-des {
+    max-width: 560px;
+    text-align: left;
+}
+.sec-title {
+    text-align: left;
+}

@@ -163,27 +163,28 @@ main {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
-    margin-top: 110px;
-    margin-bottom: 0px;
+    /* margin-top: 110px;
+    margin-bottom: 0px; */
 }
 .subject {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 0px;
-    margin-top: 60px;
+    margin-top: 0px;
 }
 .university {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    margin-bottom: 0px;
 }
 .education-brief {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .education-experience-container {
     display: flex;
@@ -193,7 +194,7 @@ main {
 .educationr1 {
     margin-top: 30px;
 }
-.btndown {
+/* .btndown {
     border-radius: 5px;
     background: #fd6e0a;
     border: 0;
@@ -205,6 +206,14 @@ main {
     margin-top: 50px;
     width: 200px;
     height: 64px;
+} */
+
+.download-cv {
+    text-align: center;
+}
+
+.btndown {
+    padding: 20px 20px;
 }
 
 footer {
@@ -213,5 +222,10 @@ footer {
 
 .education, .experience {
     padding: 30px;
+}
+
+.education-experience-container hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 

@@ -19,6 +19,7 @@ body {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 0px;
+    margin-top: 100px;
 }
 
 /* nav related styles */
@@ -123,10 +124,11 @@ nav a {
 
 main {
     max-width: 1140px;
+    /* max-height: 550px; */
     margin: 0px auto;
 }
 
-.about-info-container  {
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
@@ -156,3 +158,60 @@ main {
 .skill-description {
     text-align: justify;
 }
+
+.education-experience {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 110px;
+    margin-bottom: 0px;
+}
+.subject {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+.university {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.education-brief {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.education-experience-container {
+    display: flex;
+    gap: 100px;
+}
+
+.educationr1 {
+    margin-top: 30px;
+}
+.btndown {
+    border-radius: 5px;
+    background: #fd6e0a;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin-left: 470px;
+    margin-top: 50px;
+    width: 200px;
+    height: 64px;
+}
+
+footer {
+    max-width: 1600px; 
+}
+
+.education, .experience {
+    padding: 30px;
+}
+
